@@ -370,9 +370,31 @@ ul {
 /* Publications */
 
 .pub {
+  display: grid;
+  grid-template-columns: 200px 1fr;
+  gap: 8px 28px;
+  align-items: start;
   padding: 26px 0;
   border-top: 1px solid var(--rule);
-  max-width: 78ch;
+}
+
+.pub-thumb {
+  width: 100%;
+  height: auto;
+  aspect-ratio: 16 / 9;
+  object-fit: cover;
+  border-radius: 6px;
+  display: block;
+}
+
+@media (max-width: 640px) {
+  .pub {
+    grid-template-columns: 1fr;
+  }
+
+  .pub-thumb {
+    max-width: 320px;
+  }
 }
 
 .pub h3 {
