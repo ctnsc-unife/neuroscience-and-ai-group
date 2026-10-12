@@ -16,7 +16,8 @@ site/
   assets/
     css/style.css
     js/main.js    Mobile menu
-    js/raster.js  Animated spike raster on the home page
+    js/signals.js Animated simulated EEG/EMG traces on the home page
+    logo-mark.svg  Header logo (favicon.svg is the square version)
     favicon.svg
 .github/workflows/pages.yml   Deploys `site/` to GitHub Pages on every push to main
 ```

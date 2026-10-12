@@ -16,7 +16,7 @@
 
   <header class="site-header">
     <div class="wrap header-row">
-      <a class="brand" href="index.html"><img src="assets/logo.svg" alt="" width="34" height="34"><span>Neuroscience &amp; AI Group</span></a>
+      <a class="brand" href="index.html"><img src="assets/logo-mark.svg" alt="" width="46" height="27"><span>Neuroscience &amp; AI Group</span></a>
       <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="site-nav">Menu</button>
       <nav id="site-nav" class="site-nav" aria-label="Main">
         <ul>
@@ -44,10 +44,10 @@
       </div>
     </section>
 
-    <div class="raster-band">
-      <canvas id="raster" role="img" aria-label="Animated plot of simulated neural spikes. Each row is one neuron and each tick is a spike."></canvas>
+    <div class="signal-band">
+      <canvas id="signals" role="img" aria-label="Animated plot of simulated EEG and EMG signals. The top five traces are EEG channels and the bottom two are EMG channels."></canvas>
     </div>
-    <p class="raster-caption">Simulated spike trains from 32 model neurons.</p>
+    <p class="signal-caption">Simulated EEG and EMG signals.</p>
 
     <section class="section">
       <div class="wrap split">
@@ -155,6 +155,6 @@
   </footer>
 
   <script src="assets/js/main.js"></script>
-  <script src="assets/js/raster.js"></script>
+  <script src="assets/js/signals.js"></script>
 </body>
 </html>
