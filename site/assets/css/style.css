@@ -306,6 +306,38 @@ ul {
   }
 }
 
+.diagram {
+  margin: 32px 0 0;
+  max-width: 520px;
+  color: var(--slate);
+}
+
+.diagram svg {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.d-side {
+  fill: var(--mint);
+}
+
+.d-core {
+  fill: var(--blue);
+}
+
+.d-label {
+  font-family: var(--head);
+  font-weight: 500;
+  font-size: 16px;
+  fill: var(--ink);
+}
+
+.d-core-label {
+  font-weight: 700;
+  fill: #fff;
+}
+
 /* News */
 
 .news-year {
@@ -443,7 +475,7 @@ ul {
 .people {
   list-style: none;
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  grid-template-columns: repeat(auto-fill, minmax(240px, 270px));
   gap: 48px 32px;
   margin-bottom: 72px;
 }
