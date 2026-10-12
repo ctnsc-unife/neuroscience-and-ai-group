@@ -450,14 +450,14 @@ ul {
 
 .person {
   display: grid;
-  grid-template-columns: 76px 1fr;
+  grid-template-columns: 112px 1fr;
   gap: 16px;
   align-items: start;
 }
 
 .avatar {
-  width: 76px;
-  height: 76px;
+  width: 112px;
+  height: 112px;
   border-radius: 50%;
   background: var(--mint);
   color: var(--ink);
@@ -465,7 +465,7 @@ ul {
   place-items: center;
   font-family: var(--head);
   font-weight: 700;
-  font-size: 1.4rem;
+  font-size: 2rem;
 }
 
 img.avatar {
@@ -483,6 +483,33 @@ img.avatar {
   font-size: 0.95rem;
   line-height: 1.5;
   color: var(--slate);
+}
+
+.collaborators {
+  list-style: none;
+  margin-bottom: 64px;
+}
+
+.collaborators li {
+  display: grid;
+  grid-template-columns: 16rem 1fr;
+  gap: 4px 24px;
+  padding: 12px 0;
+  border-top: 1px solid var(--rule);
+}
+
+.collaborators strong {
+  font-family: var(--head);
+}
+
+.collaborators span {
+  color: var(--slate);
+}
+
+@media (max-width: 560px) {
+  .collaborators li {
+    grid-template-columns: 1fr;
+  }
 }
 
 /* Join band */
