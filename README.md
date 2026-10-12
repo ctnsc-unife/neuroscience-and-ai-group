@@ -11,7 +11,6 @@ site/
   team.html       People
   research.html   Research areas and publications
   join.html       Open positions
-  outreach.html   Teaching, talks, software
   contact.html    Contact details
   assets/
     css/style.css
