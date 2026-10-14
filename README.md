@@ -1,6 +1,6 @@
-# Neuroscience & AI Group website
+# MAPS website
 
-Static website of the Neuroscience & AI Group at the University of Ferrara.
+Static website of MAPS (Manifolds of Action, Perception and Speech) at the University of Ferrara.
 Plain HTML, CSS and a little JavaScript. There is no build step.
 
 ## Structure
